@@ -1,19 +1,5 @@
 // Your code here
 
-// creating a generic function to create Employee objects
-// const createEmployeeRecord = function (firstName, familyName, title, payPerHour){
-//     this.firstName = firstName
-//     this.familyName = familyName
-//     this.title = title;
-//     this.payPerHour = payPerHour;
-
-// }
-
-// // use "new" keyword to create an object
-// let testEmployee = new createEmployeeRecord("Gray", "Worm", "Security", 1)
-// console.log(testEmployee)
-
-
 const createEmployeeRecord = function (arr) {
         return {
             firstName: arr[0],
